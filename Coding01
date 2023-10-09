@@ -1,0 +1,8 @@
+public class coding01 {
+
+    public static void main(String[] args) {
+        //Menampilkan Pesan Sederhana
+        System.out.println("hari petama ngoding \n \"Dita Yustianisa\"");
+        System.out.println("\t semangatttt");
+    }
+}

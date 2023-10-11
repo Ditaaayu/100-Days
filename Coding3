@@ -1,0 +1,18 @@
+public class coding03 {
+
+    public static void main(String[] args) {
+        //menukar dua variabel
+        String x = "air putih";
+        String y = "air teh";
+
+        String temp;
+        temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println("x : " + x);
+        System.out.println("y : " + y);
+
+    }
+
+}

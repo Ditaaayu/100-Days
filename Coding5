@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class coding05 {
+
+    public static void main(String[] args) {
+        // Input dan Output Sederhana
+        Scanner sc = new Scanner(System.in);
+        System.out.print("masukkan nama : ");
+        String nama = sc.nextLine();
+        System.out.print("masukkan umur :");
+        int umur = sc.nextInt();
+
+        System.out.println("hello : " + nama);
+        System.out.println("kamu sudah berumur " + umur + " tahun");
+
+    }
+}

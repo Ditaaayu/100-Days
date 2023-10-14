@@ -1,0 +1,19 @@
+public class coding06 {
+
+    public static void main(String[] args) {
+        //aritmatika
+        int a = 34;
+        int b = 45;
+        int c = 3;
+        int d = 2;
+        int e = 45;
+
+        System.out.println(a + " + " + b + " : " + (a + b));
+        System.out.println(a + " - " + c + " : " + (a - c));
+        System.out.println(d + " * " + e + " : " + (d * e));
+        System.out.println(a + " / " + d + " : " + (a / d));
+        System.out.println(a + " % " + c + " : " + (a % c));
+
+    }
+
+}

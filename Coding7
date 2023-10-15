@@ -1,0 +1,11 @@
+public class coding07 {
+    public static void main(String[] args) {
+        //Perulangan dengan While Loop
+        int i = 1;
+        while (i <= 5) {
+            System.out.println("coba  " + i);
+            i++;
+        }
+    }
+ 
+}

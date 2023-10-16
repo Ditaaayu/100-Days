@@ -1,0 +1,11 @@
+public class  coding8{
+    public static void main(String[] args) {
+        // Membuat sebuah array integer
+        int[] angka = {1, 2, 3, 4, 5};
+
+        // Menggunakan perulangan for each untuk mengakses setiap elemen dalam array
+        for (int elemen : angka) {
+            System.out.println(elemen);
+        }
+    }
+}

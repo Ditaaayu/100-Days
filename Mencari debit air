@@ -1,0 +1,19 @@
+package Nomor_4;
+
+
+import java.util.Scanner;
+
+public class Nomor_4 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan nilai luas permukaan (dalam m^2): ");
+        double luasPermukaan = input.nextDouble();
+
+        System.out.print("Masukkan nilai kecepatan aliran air (dalam m/s): ");
+        double kecepatanAliran = input.nextDouble();
+
+        double debitAir = luasPermukaan * kecepatanAliran;
+        System.out.println("Debit air adalah " + debitAir + " m^3/s");
+    }
+}

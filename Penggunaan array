@@ -1,0 +1,8 @@
+public class coding09 {
+    public static void main(String[] args) {
+        //Penggunaan Array
+        int[] angka = {1, 2, 3, 4, 5};
+        System.out.println("Elemen ke-3 dari array: " + angka[2]);
+    }
+  
+}

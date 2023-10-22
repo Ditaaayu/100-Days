@@ -1,0 +1,14 @@
+public class Day013 {
+
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            if (i == 4) {
+                continue; // lewatkan iterasi jika i = 4
+            }else if(i == 8){
+                break;// Keluar dari loop jika i adalah 3
+            }
+            System.out.println("Nilai i: " + i);
+        }
+    }
+
+}

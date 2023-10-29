@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class Day_21 {
+   public static void main(String[] args) {
+//       Program untuk Membalikkan Sebuah String
+        Scanner sc = new Scanner(System.in);
+        String kata = sc.nextLine();
+
+        String atak = new StringBuffer(kata).reverse().toString();
+
+        System.out.println(atak);
+
+    } 
+}

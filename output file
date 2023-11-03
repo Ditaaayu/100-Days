@@ -1,0 +1,24 @@
+
+package pkg100day_ngoding;
+
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class Day_26 {
+    public static void main(String[] args) {
+        try {
+            File file = new File("C:\\Users\\Imran\\Documents\\NetBeansProjects\\100Day_Ngoding\\src\\pkg100day_ngoding\\coba");
+            PrintWriter output = new PrintWriter(file);
+
+            output.println("Ini adalah contoh output ke file.");
+            output.println("Baris kedua.");
+
+            output.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("File tidak ditemukan.");
+            e.printStackTrace();
+        }
+    }
+}

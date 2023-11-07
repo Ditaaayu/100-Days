@@ -1,0 +1,15 @@
+
+package pkg100day_ngoding;
+
+import java.util.Scanner;
+
+public class Day_30 {
+  public static void main(String[] args) {
+//      ternary operator
+    Scanner sc = new Scanner(System.in);
+    
+    int number = sc.nextInt();
+    String output = (number > 11) ? "Positive Number" : "Negative Number";
+    System.out.println(output);
+  }
+}

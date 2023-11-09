@@ -1,0 +1,19 @@
+
+package pkg100day_ngoding;
+
+public class Day_32 {
+  public static void main(String[] args) {
+//      Deklarasi array
+    int[] angka = new int[5];
+    angka[0] = 10;
+    angka[1] = 20;
+    angka[2] = 30;
+    angka[3] = 40;
+    angka[4] = 50;
+
+    System.out.println("Nilai dalam Array adalah: ");
+    for (int i = 0; i < angka.length; i++) {
+      System.out.print(angka[i] + " ");
+    }
+  }
+}

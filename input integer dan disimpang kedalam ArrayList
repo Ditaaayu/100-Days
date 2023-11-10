@@ -1,0 +1,23 @@
+
+package pkg100day_ngoding;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Day_33 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        int a = sc.nextInt();
+        int total = 0;
+        for (int i = 0; i < a; i++) {
+            System.out.println("masukkan angka : ");
+            int b = sc.nextInt();
+            arr.add(b);
+            total +=b;
+            System.out.println("hasil : "+total);
+        }
+        System.out.println("selesai");
+    }
+   
+}

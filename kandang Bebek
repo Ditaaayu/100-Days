@@ -1,0 +1,20 @@
+
+package pkg100day_ngoding;
+
+import java.util.Scanner;
+
+
+public class Day_34 {
+	public static void main(String[] args) {
+            // kandang Bebek
+		Scanner sc = new Scanner(System.in);
+		int N=sc.nextInt(); //jumlah kadang bebek
+		int b=0;
+		for (int i=1;i<=N;i++){
+			int a=sc.nextInt(); // jumlah bebek dari setiap kandang
+		    b+=a; // jumlah keseluruhan bebek		
+		}
+		System.out.println(b);
+	}
+}    
+

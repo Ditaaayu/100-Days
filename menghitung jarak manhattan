@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Day_35 {
 
     public static void main(String[] args) {
-//        cara menghitung nilai mutlak
+//        cara menghitung jarak manhattan
         Scanner sc = new Scanner(System.in);
         int x1 = sc.nextInt();
         int y1 = sc.nextInt();

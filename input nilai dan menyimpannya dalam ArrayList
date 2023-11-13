@@ -1,0 +1,22 @@
+package pkg100day_ngoding;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Day_36 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        int sum = 0;
+        while (sum <= 100) {
+            System.out.print("Masukkan angka: ");
+            int num = input.nextInt();//inputan yang menerima integer
+            arr.add(num);//setiap inputan disimpan  kedalam arraylist
+            sum += num;
+            System.out.println("Hasil penjumlahan: " + sum);//cetak hasil penjumlahan array
+        }
+        System.out.println("Program berhenti karena hasil penjumlahan di atas 100");
+      
+    }
+}

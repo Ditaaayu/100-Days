@@ -1,0 +1,16 @@
+package pkg100day_ngoding;
+
+import java.util.Scanner;
+
+public class Day_40{
+//    bilangan terbesar
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan bilangan pertama: ");
+        int num1 = input.nextInt();
+        System.out.print("Masukkan bilangan kedua: ");
+        int num2 = input.nextInt();
+        int max = num1 > num2 ? num1 : num2;
+        System.out.println("Bilangan terbesar: " + max);
+    }
+}

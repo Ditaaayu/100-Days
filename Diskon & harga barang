@@ -1,0 +1,25 @@
+
+package pkg100day_ngoding;
+
+import java.util.Scanner;
+
+public class Day_43 {
+//    menghitung diskon dan harga bayar berdasarkan jumlah pembelian dan persentase diskon
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukkan harga pembelian : ");
+        int jumlahpembelian = sc.nextInt();
+        double diskon = 0;
+        if (jumlahpembelian >= 100000 && jumlahpembelian<500000 ){
+            diskon = 0.1;
+        }else if(jumlahpembelian >= 500000 && jumlahpembelian<1000000){
+            diskon = 0.2;
+        }else if (jumlahpembelian >= 1000000 ){
+            diskon = 0.3;
+        }
+        double hargaBayar = jumlahpembelian -(jumlahpembelian*diskon);
+        System.out.println("diskon "+(diskon*100+" %"));
+        System.out.println("harga bayar : "+hargaBayar);
+    }
+ 
+}

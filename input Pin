@@ -1,0 +1,19 @@
+package pkg100day_ngoding;
+
+import java.util.Scanner;
+
+public class Day_44 {
+
+    public static void main(String[] args) {
+//   untuk meminta input PIN ATM dari pengguna dan menampilkan pesan "PIN benar" jika PIN yang dimasukkan adalah 1234
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukkan PIN : ");
+        int pin = sc.nextInt();
+        if (pin == 1234) {
+            System.out.println("PIN BENAR");
+        } else {
+            System.out.println("PIN SALAH");
+        }
+    }
+
+}

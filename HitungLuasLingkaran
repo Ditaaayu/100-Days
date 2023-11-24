@@ -1,0 +1,17 @@
+package pkg100day_ngoding;
+
+import java.util.Scanner;
+
+public class Day_47 {
+
+    public static void main(String[] args) {
+//  program untuk menghitung luas lingkaran dengan jari-jari yang dimasukkan oleh pengguna.
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukkan jari-jari : ");
+        double jarijari = sc.nextDouble();
+
+        double luasLingkaran = Math.PI * jarijari * jarijari;
+        System.out.println("luas lingkaran : " + luasLingkaran);
+    }
+
+}

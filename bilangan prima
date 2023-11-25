@@ -1,0 +1,23 @@
+package pkg100day_ngoding;
+
+public class Day_48 {
+
+    public static void main(String[] args) {
+//        bilangan yang hanya dibagi dengan dirinya sendiri dan 1, jika dia bisa dibagi atau habis 
+//          dibagi dengan bilangan lain berarti itu bukan bilangan prima
+
+        System.out.println("Bilangan Prima dari 1 hingga 100:");
+        for (int i = 2; i <= 100; i++) {
+            boolean prima = true;
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    prima = false;
+                    break;
+                }
+            }
+            if (prima) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}

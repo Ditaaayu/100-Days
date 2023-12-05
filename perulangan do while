@@ -1,0 +1,13 @@
+package pkg100day_ngoding;
+
+public class Day_58 {
+// perulangan do while
+    public static void main(String[] args) {
+        int i = 10;
+        do {
+            System.out.println("Perulangan ke- " + i);
+            i++;
+        } while (i <= 20);
+    }
+
+}

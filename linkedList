@@ -1,0 +1,14 @@
+package pkg100day_ngoding;
+import java.util.LinkedList;
+
+public class Day_60 {
+
+    public static void main(String[] args) {
+//        LinkedList
+        LinkedList<String> hewan = new LinkedList<>();
+        hewan.add("Kucing");
+        hewan.add("Singa");
+        hewan.add("Gajah");
+        System.out.println(hewan);
+    }
+}

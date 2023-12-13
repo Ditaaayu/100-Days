@@ -1,0 +1,7 @@
+public class ConvertToString {
+    public static void main(String[] args) {
+        int angka = 42;
+        String stringAngka = Integer.toString(angka);
+        System.out.println(stringAngka);
+    }
+}//mengubah tipe data primitif ke string

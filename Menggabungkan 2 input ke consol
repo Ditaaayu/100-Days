@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class GabungKata {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan kata pertama: ");
+        String kata1 = scanner.next();
+
+        System.out.print("Masukkan kata kedua: ");
+        String kata2 = scanner.next();
+
+        String hasilGabungan = kata1 + " " + kata2;
+        System.out.println("Hasil penggabungan: " + hasilGabungan);
+    }
+}//menggabungkan 2 input ke consol

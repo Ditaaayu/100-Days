@@ -1,0 +1,10 @@
+import java.math.BigInteger;
+public class Day_72 {
+    public static void main(String[] args) {
+        BigInteger angkaPertama = new BigInteger ("689234567855774321");
+        BigInteger angkaKedua = new BigInteger ("756854567423678990");
+        
+        BigInteger kurang = angkaPertama.subtract(angkaKedua);
+        System.out.println("Hasil Hitung : "+ kurang);
+    }
+}

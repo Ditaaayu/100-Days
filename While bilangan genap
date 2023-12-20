@@ -1,0 +1,19 @@
+package dita;
+
+import java.util.Scanner;
+
+public class Saya {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {            
+            int bil = sc.nextInt();
+            
+            if(bil%2==1){
+                System.out.println("You and i,end");
+                break;
+            }
+            System.out.println("genap");
+        }
+    }
+   
+}
